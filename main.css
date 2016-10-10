@@ -1,0 +1,31 @@
+@media all {
+	#div_reseptit {
+		display: block;
+	}
+
+	#div_lisays {
+		display: block;
+	}
+
+	#ul_reseptit li{
+		list-style: none;
+	}
+
+	#li_reseptit {
+		list-style: none;
+	}
+
+}
+
+
+@media all and (min-width: 512px) {
+	#div_reseptit {
+		float: left;
+		width: 50%;
+	}
+
+	#div_lisays {
+		float: left;
+		width: 50%;
+	}
+}
